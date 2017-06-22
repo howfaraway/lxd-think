@@ -12,6 +12,6 @@ return [
         '__PUBLIC__'    =>'/public/',
         '__RESOURCE__'  => '/public/static/',
         '__ROOT__'      => '/',
-        '__TIMESTAMP__' => '?20170214'
+        '__TIMESTAMP__' => '?20170622'
     ],
 ];
