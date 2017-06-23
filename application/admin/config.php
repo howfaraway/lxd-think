@@ -12,6 +12,6 @@ return [
         '__PUBLIC__'    =>'/public/',
         '__RESOURCE__'  => '/public/static/',
         '__ROOT__'      => '/',
-        '__TIMESTAMP__' => '?20170622'
+        '__TIMESTAMP__' => '?'.rand(1000,9999)//20170622
     ],
 ];

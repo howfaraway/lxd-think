@@ -21,7 +21,6 @@ class CacheHandle
      */
     public static function get($name, $default = false)
     {
-        dump(Cache::get($name, $default));exit;
         try {
             return Cache::get($name, $default);
         } catch (\Exception $e) {
@@ -71,7 +70,7 @@ class CacheHandle
      */
     public static function rwcache($key, $callback = true)
     {
-        $value = self::get($key);dump($key);exit;
+        $value = self::get($key);
         if ($value !== false || $callback === false) {
             return $value;
         }
